@@ -14,8 +14,64 @@ a {
 }
 
 .container {
-  min-width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 /* General CSS End */
+
+/* Header CSS Start */
+#newsBanner {
+  padding: 30px 0;
+}
+
+#newsBanner .banner-content {
+  background: #161616;
+  border-radius: 30px;
+  height: 549px;
+}
+
+#newsBanner .banner-text {
+  width: 50%;
+  padding: 53px 0px 53px 50px;
+}
+
+#newsBanner .banner-text>h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+#newsBanner .banner-text>p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding: 25px 0 30px;
+}
+
+#newsBanner .banner-text>a {
+  font-size: 19px;
+  line-height: 58px;
+  color: #FFFFFF;
+  padding: 11px 25px;
+  background: #DD0000;
+  border: 1px solid #DD0000;
+  border-radius: 5px;
+}
+
+#newsBanner .banner-text>a>i {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+#newsBanner .banner-image {
+  width: 50%;
+  padding: 33px 79px 0px 20px;
+}
+
+#newsBanner .banner-image>img {
+  width: 100%;
+}
+
+/* Header CSS End */
