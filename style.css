@@ -58,11 +58,17 @@ a {
   background: #DD0000;
   border: 1px solid #DD0000;
   border-radius: 5px;
+  transition: all 0.5s;
 }
 
 #newsBanner .banner-text>a>i {
   font-size: 16px;
   padding-left: 10px;
+}
+
+#newsBanner .banner-text>a:hover {
+  background: none;
+  border: 1px solid #DD0000;
 }
 
 #newsBanner .banner-image {
