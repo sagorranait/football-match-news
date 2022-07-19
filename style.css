@@ -28,12 +28,12 @@ a {
 #newsBanner .banner-content {
   background: #161616;
   border-radius: 30px;
-  height: 549px;
+  height: 575px;
 }
 
 #newsBanner .banner-text {
   width: 50%;
-  padding: 53px 0px 53px 50px;
+  padding: 66px 0px 66px 65px;
 }
 
 #newsBanner .banner-text>h1 {
@@ -73,7 +73,7 @@ a {
 
 #newsBanner .banner-image {
   width: 50%;
-  padding: 33px 79px 0px 20px;
+  padding: 33px 35px 0px 0;
 }
 
 #newsBanner .banner-image>img {
