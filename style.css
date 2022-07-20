@@ -21,6 +21,7 @@ a {
   background: #DD0000;
   border-radius: 5px;
   margin-top: 50px;
+  display: none;
 }
 
 .container {
@@ -354,3 +355,14 @@ a {
 }
 
 /* Footer CSS End */
+
+/* Media  CSS Start */
+@media screen and (max-width: 575.99px) {}
+
+@media screen and (min-width: 576px) and (max-width: 767.99px) {}
+
+@media screen and (min-width: 768px) and (max-width: 992.99px) {}
+
+@media screen and (min-width: 993px) and (max-width: 1200.99px) {}
+
+/* Media  CSS End */
