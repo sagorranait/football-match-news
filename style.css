@@ -177,10 +177,25 @@ a {
   border: none;
 }
 
+#newsArea .group-section {
+  padding: 25px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#newsArea .group-section>h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #161616;
+  padding-bottom: 15px;
+}
+
 #newsArea .all-group .group {
   padding: 15px;
   margin-bottom: 10px;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #d6d6d6;
   border-radius: 10px;
   justify-content: space-around;
 }
@@ -215,6 +230,7 @@ a {
 
 #newsArea .group-point {
   width: 33%;
+  text-align: right;
 }
 
 #newsArea .group-point>p span {
