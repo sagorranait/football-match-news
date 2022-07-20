@@ -192,6 +192,12 @@ a {
   padding-bottom: 15px;
 }
 
+#newsArea .groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 20px;
+}
+
 #newsArea .all-group .group {
   padding: 15px;
   margin-bottom: 10px;
@@ -201,7 +207,7 @@ a {
 }
 
 #newsArea .group-Rank {
-  width: 13%;
+  width: 10%;
 }
 
 #newsArea .group-Rank>p {
@@ -212,7 +218,7 @@ a {
 }
 
 #newsArea .group-name {
-  width: 53%;
+  width: 90%;
   justify-content: start;
 }
 
@@ -226,18 +232,6 @@ a {
   line-height: 30px;
   color: #161616;
   padding-left: 15px;
-}
-
-#newsArea .group-point {
-  width: 33%;
-  text-align: right;
-}
-
-#newsArea .group-point>p span {
-  padding: 5px 15px;
-  color: #FFFFFF;
-  border-radius: 30px;
-  background: #dd0000c7;
 }
 
 /* All-Group Page CSS End */
