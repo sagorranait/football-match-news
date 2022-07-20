@@ -128,11 +128,45 @@ a {
 
 .news-feed .news {
   width: 256px;
-  height: 242px;
   border: 1px solid #E8E8E8;
+  border-radius: 10px;
 }
 
 /* Upcoming Match CSS Start */
+#newsArea .upcoming-match {
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#newsArea .upcoming-match>h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #161616;
+}
+
+#newsArea .upcoming-match>p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D4D4D;
+  padding-top: 10px;
+}
+
+#newsArea .team-flags {
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+#newsArea .team-flags>img {
+  width: 70px;
+}
+
+#newsArea .team-flags>span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #161616;
+}
 
 /* Upcoming Match CSS End */
 
