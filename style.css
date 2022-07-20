@@ -173,8 +173,58 @@ a {
 /* All-Group Page CSS Start */
 #newsArea .all-group {
   width: 763px;
-  padding: 30px;
+  padding: 0 30px;
+  border: none;
 }
+
+#newsArea .all-group .group {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+#newsArea .group-Rank {
+  width: 13%;
+}
+
+#newsArea .group-Rank>p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161616;
+}
+
+#newsArea .group-name {
+  width: 53%;
+  justify-content: start;
+}
+
+#newsArea .group-name>img {
+  width: 50px;
+}
+
+#newsArea .group-name>h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #161616;
+  padding-left: 15px;
+}
+
+#newsArea .group-point {
+  width: 33%;
+}
+
+#newsArea .group-point>p span {
+  padding: 5px 15px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  background: #dd0000c7;
+}
+
+/* All-Group Page CSS End */
 
 /* Main CSS End */
 
