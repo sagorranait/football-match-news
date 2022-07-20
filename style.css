@@ -432,6 +432,50 @@ a {
   }
 
   /* Header CSS  End */
+  /* Main CSS Start */
+  #newsArea {
+    padding: 24px 0;
+  }
+
+  #newsArea .news-content {
+    flex-direction: column;
+  }
+
+  #newsArea .sidebar {
+    margin: 0 auto;
+    padding: 0 30px 0;
+    background: none;
+  }
+
+  .news-feed .news {
+    margin: 0 auto;
+  }
+
+  #newsArea .sidebar a {
+    border: 1px solid #E8E8E8;
+    margin-bottom: 24px;
+  }
+
+  #newsArea .news-feed {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    width: 320px;
+  }
+
+  #newsArea .all-group {
+    width: 100%;
+    padding: 0;
+  }
+
+  #newsArea .group-section {
+    margin: 20px;
+  }
+
+  #newsArea .groups {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Main CSS End */
   /* Footer CSS Start */
   #newsFooter {
     padding: 24px 0;
