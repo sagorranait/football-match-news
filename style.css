@@ -39,11 +39,10 @@ a {
 #newsBanner .banner-content {
   background: #161616;
   border-radius: 30px;
-  height: 575px;
 }
 
 #newsBanner .banner-text {
-  width: 50%;
+  width: 531px;
   padding: 66px 0px 66px 65px;
 }
 
@@ -82,12 +81,14 @@ a {
 }
 
 #newsBanner .banner-image {
-  width: 50%;
+  width: 581px;
   padding: 33px 35px 0px 0;
+  height: 574px;
 }
 
 #newsBanner .banner-image>img {
   width: 100%;
+  height: 100%;
 }
 
 /* Header CSS End */
@@ -312,7 +313,7 @@ a {
 
 /* Footer CSS Start */
 #newsFooter {
-  padding: 100px 0 50px;
+  padding: 100px 0;
   background: #161616;
 }
 
@@ -350,19 +351,255 @@ a {
   color: #B9B9B9;
 }
 
-#newsFooter .quick-link>li>a>i {
+#newsFooter .social-link {
+  justify-content: center;
+}
+
+#newsFooter .social-link>li {
+  padding-right: 55px;
+}
+
+#newsFooter .social-link>li:last-child {
+  padding-right: 0px;
+}
+
+#newsFooter .social-link>li>a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B9B9B9;
+}
+
+#newsFooter .social-link>li>a>i {
   font-size: 25px;
 }
 
 /* Footer CSS End */
 
 /* Media  CSS Start */
-@media screen and (max-width: 575.99px) {}
+@media only screen and (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+  }
 
-@media screen and (min-width: 576px) and (max-width: 767.99px) {}
+  /* General CSS End */
+  #newsBanner .banner-content {
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
 
-@media screen and (min-width: 768px) and (max-width: 992.99px) {}
+  #newsBanner .banner-text {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+  }
 
-@media screen and (min-width: 993px) and (max-width: 1200.99px) {}
+  #newsBanner .banner-text>h1 {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+  }
+
+  #newsBanner .banner-text>p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 8px 0 16px;
+  }
+
+  #newsBanner .banner-text>a {
+    font-size: 16px;
+    line-height: 50px;
+    padding: 8px 18px;
+  }
+
+  #newsBanner .banner-text>a>i {
+    font-size: 14px;
+    padding-left: 4px;
+  }
+
+  #newsBanner .banner-image {
+    width: 260px;
+    padding: 0;
+    height: 274px;
+  }
+
+  #newsBanner .banner-image>img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Header CSS  End */
+  /* Footer CSS Start */
+  #newsFooter {
+    padding: 24px 0;
+  }
+
+  #newsFooter .footer-content>h2 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  #newsFooter .footer-content>hr {
+    margin: 24px 0;
+  }
+
+  #newsFooter .quick-link>li {
+    padding: 0px 0px 35px 0px;
+  }
+
+  #newsFooter .quick-link {
+    flex-direction: column;
+    padding-bottom: 24px;
+  }
+
+  /* Footer CSS End */
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.99px) {
+  .container {
+    max-width: 540px;
+  }
+
+  /* General CSS End */
+
+  /* Header CSS Start */
+  #newsBanner .banner-text {
+    width: 578px;
+    padding: 0px 0px 0px 35px;
+  }
+
+  #newsBanner .banner-text>h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  #newsBanner .banner-text>p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0 20px;
+  }
+
+  #newsBanner .banner-text>a {
+    font-size: 16px;
+    line-height: 50px;
+    padding: 10px 16px;
+  }
+
+  #newsBanner .banner-text>a>i {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  #newsBanner .banner-image {
+    padding: 33px 11px 0px 0;
+    height: 290px;
+  }
+
+  /* Header CSS End */
+  /* Footer CSS Start */
+  #newsFooter {
+    padding: 70px 0;
+  }
+
+  #newsFooter .quick-link {
+    padding: 0px 0px 24px 0px;
+    flex-wrap: wrap;
+  }
+
+  #newsFooter .footer-content>hr {
+    margin: 30px 0;
+  }
+
+  #newsFooter .quick-link>li {
+    padding: 0px 0px 25px 40px;
+  }
+
+  /* Footer CSS End */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992.99px) {
+  .container {
+    max-width: 720px;
+  }
+
+  /* General CSS End */
+  /* Header CSS Start */
+  #newsBanner .banner-text {
+    width: 345px;
+    padding: 0px 0px 0px 35px;
+  }
+
+  #newsBanner .banner-text>h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #newsBanner .banner-text>p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 20px;
+  }
+
+  #newsBanner .banner-text>a {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 10px 16px;
+  }
+
+  #newsBanner .banner-text>a>i {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  #newsBanner .banner-image {
+    width: 323px;
+    padding: 33px 17px 0px 15px;
+    height: 350px;
+  }
+
+  /* Header CSS End */
+  /* Footer CSS Start */
+  #newsFooter {
+    padding: 70px 0;
+  }
+
+  #newsFooter .quick-link {
+    padding: 0px 0px 24px 0px;
+    flex-wrap: wrap;
+  }
+
+  #newsFooter .footer-content>hr {
+    margin: 30px 0;
+  }
+
+  #newsFooter .quick-link>li {
+    padding: 0px 0px 25px 40px;
+  }
+
+  /* Footer CSS End */
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200.99px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* General CSS End */
+  /* Header CSS Start */
+  #newsBanner .banner-text>h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  #newsBanner .banner-image {
+    width: 540px;
+    height: 460px;
+  }
+
+  /* Header CSS End */
+}
 
 /* Media  CSS End */
