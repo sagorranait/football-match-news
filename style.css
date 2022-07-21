@@ -20,7 +20,7 @@ a {
   padding: 12px 29px;
   background: #DD0000;
   border-radius: 5px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: none;
 }
 
@@ -439,6 +439,7 @@ a {
 
   #newsArea .news-content {
     flex-direction: column;
+    width: 100%;
   }
 
   #newsArea .sidebar {
@@ -456,10 +457,14 @@ a {
     margin-bottom: 24px;
   }
 
+  #newsArea .news-main {
+    width: 100%;
+  }
+
   #newsArea .news-feed {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0;
-    width: 320px;
+    width: 100%;
   }
 
   #newsArea .all-group {
@@ -543,6 +548,49 @@ a {
   }
 
   /* Header CSS End */
+  /* Main CSS Start */
+  #newsArea {
+    padding: 40px 0 70px;
+  }
+
+  #newsArea .news-content {
+    flex-direction: column;
+  }
+
+  #newsArea .news-feed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #newsArea .sidebar {
+    width: 530px;
+    background: none;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #newsArea .sidebar a {
+    width: 145px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #E8E8E8;
+  }
+
+  .news-feed .news {
+    width: 255px;
+  }
+
+  #newsArea .team-flags {
+    justify-content: space-evenly;
+  }
+
+  #newsArea .all-group {
+    width: 530px;
+    padding: 0;
+    border: none;
+  }
+
+  /* Main CSS End */
   /* Footer CSS Start */
   #newsFooter {
     padding: 70px 0;
@@ -605,6 +653,59 @@ a {
   }
 
   /* Header CSS End */
+
+  /* Main CSS Start */
+  #newsArea {
+    padding: 40px 0 70px;
+  }
+
+  #newsArea .news-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #newsArea .news-feed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #newsArea .sidebar {
+    width: 715px;
+    background: none;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #newsArea .sidebar a {
+    width: 186px;
+    border: 1px solid #E8E8E8;
+  }
+
+  .news-feed .news {
+    width: 345px;
+  }
+
+  #newsArea .team-flags {
+    justify-content: space-evenly;
+  }
+
+  #newsArea .all-group {
+    width: 690px;
+    padding: 0 0 0 25px;
+    border: none;
+  }
+
+  .news-main .viewAll-btn {
+    margin-top: 30px !important;
+  }
+
+  .news-content .viewAll-btn {
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  /* Main CSS End */
+
   /* Footer CSS Start */
   #newsFooter {
     padding: 70px 0;
@@ -644,6 +745,21 @@ a {
   }
 
   /* Header CSS End */
+  /* Main CSS Start */
+  #newsArea .news-feed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .news-feed .news {
+    width: 305px;
+  }
+
+  #newsArea .all-group {
+    width: 645px;
+    padding: 0;
+  }
+
+  /* Main CSS End */
 }
 
 /* Media  CSS End */
