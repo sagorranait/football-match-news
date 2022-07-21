@@ -334,6 +334,7 @@ a {
 #newsFooter .quick-link {
   justify-content: center;
   padding-bottom: 50px;
+  list-style: none;
 }
 
 #newsFooter .quick-link>li {
@@ -353,6 +354,7 @@ a {
 
 #newsFooter .social-link {
   justify-content: center;
+  list-style: none;
 }
 
 #newsFooter .social-link>li {
